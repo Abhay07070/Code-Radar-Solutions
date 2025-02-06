@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int a;
-    scanf("%d %d", &a);
-    printf("Hexadecimal: %X\nOctal: %o", a);
+    scanf("%d", &a);
+    printf("Hexadecimal: %X\nOctal: %o", a,a);
     return 0;
 }
