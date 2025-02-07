@@ -5,8 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    float a;
-    scanf("%f", &a);
-    printf("You entered: %.4f",a);
+    double number;
+    floating point number 
+    scanf("%if", &number);
+    printf("You entered:%.4if\n",number);
     return 0;
 }
