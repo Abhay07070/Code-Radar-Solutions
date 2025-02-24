@@ -5,6 +5,9 @@ int main(){
     if(a<90){
         printf("Uppercase");
     }
+    else if(a>90){
+        printf("Lowercase");
+    }
     else{
         printf("Lowercase");
     }
