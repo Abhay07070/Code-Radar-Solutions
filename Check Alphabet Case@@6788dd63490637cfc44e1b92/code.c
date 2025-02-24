@@ -8,8 +8,8 @@ int main(){
     else if(a>90){
         printf("Lowercase");
     }
-    else(Not an alphabet){
-        printf("Lowercase");
+    else{
+        printf("Not an alphabet");
     }
     return 0;
 }
