@@ -5,10 +5,10 @@ int main(){
     if(a==b && b==c && c==a){
         printf("Equilateral");
     }
-    else if(a!=b && a==c && c==b){
+    else if(a!=b && a==c){
         printf("Isosceles");
     }
-    else if(b!=c && a==b && a==c){
+    else if(b!=c && a==b){
         printf("Isosceles");
     }
     else{
